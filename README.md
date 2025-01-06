@@ -106,3 +106,28 @@ Place the `iris.data` file in the same directory as the script. [Download](https
 ```bash
 python3 neural_network.py
 ```
+
+## Output
+```
+Dataset Iris loaded:
+     0    1    2    3            4
+0  5.1  3.5  1.4  0.2  Iris-setosa
+1  4.9  3.0  1.4  0.2  Iris-setosa
+2  4.7  3.2  1.3  0.2  Iris-setosa
+3  4.6  3.1  1.5  0.2  Iris-setosa
+4  5.0  3.6  1.4  0.2  Iris-setosa
+Accuracy on test set: 95.00%
+```
+
+### Screenshots
+#### Training
+During training, the decision boundary evolves to separate the two classes.
+<div align="center">
+	<img src="screenshots/Figure_1.png" alt="Figure_1" width="70%">
+</div>
+
+#### Test
+After training, the test set is visualized with predictions and the decision boundary.
+<div align="center">
+	<img src="screenshots/Figure_2.png" alt="Figure_2" width="50%">
+</div>

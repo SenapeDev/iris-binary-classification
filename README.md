@@ -96,7 +96,7 @@ The decision boundary and the predictions on the test set are visualized:
 ## How to run
 ### Clone the repository
 ```bash
-git clone https://github.com/your-username/iris-binary-classification.git
+git clone https://github.com/SenapeDev/iris-binary-classification
 ```
 
 ### Download the dataset
